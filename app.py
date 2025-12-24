@@ -17,7 +17,7 @@ def home():
         level = request.form["level"]
 
         prompt = f"""
-            Generate a {level} React interview question.
+            Generate a {level} {role} interview question.
             Format strictly like this:
 
             Question:
